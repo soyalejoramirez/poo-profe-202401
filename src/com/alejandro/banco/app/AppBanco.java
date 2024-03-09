@@ -11,7 +11,7 @@ public class AppBanco {
         CuentaBancaria miCuenta = new CuentaBancaria("12345-454", alex, bancolombia);
 
         CuentaBancaria vanessaCuenta = new CuentaBancaria("12345");
-        vanessaCuenta.propietario = new Persona("Vanessa");
+        vanessaCuenta.propietario = new Persona("Vanessa Dominguez");
 
         System.out.println("Numero de la cuenta: " + miCuenta.propietario.nombre);
         System.out.println("Numero de la cuenta Vanessa: " + vanessaCuenta.propietario.nombre);
