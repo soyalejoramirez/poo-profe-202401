@@ -2,15 +2,15 @@ package com.alejandro.banco.dominio;
 
 public class CuentaBancaria {
     // Atributos
-    public String numero;
-    public Persona propietario;
-    public double saldo;
-    public double tasaInteres;
-    public String tipo;
-    public Banco banco;
+    private String numero;
+    private Persona propietario;
+    private double saldo;
+    private double tasaInteres;
+    private String tipo;
+    private Banco banco;
 
     // Constructores
-    public CuentaBancaria(String numero) {
+    private CuentaBancaria(String numero) {
         this.numero = numero;
     }
 
@@ -48,5 +48,39 @@ public class CuentaBancaria {
 
     public void mostrarSaldo() {
         System.out.println("El saldo es $" + this.saldo);
+    }
+
+    // Getters & Setters
+
+    public String getNumero() {
+        return numero;
+    }
+
+    public Persona getPropietario() {
+        return propietario;
+    }
+
+    public double getSaldo() {
+        return saldo;
+    }
+
+    public double getTasaInteres() {
+        return tasaInteres;
+    }
+
+    public String getTipo() {
+        return tipo;
+    }
+
+    public Banco getBanco() {
+        return banco;
+    }
+
+    public void setTasaInteres(double tasaInteres) {
+        this.tasaInteres = tasaInteres;
+    }
+
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
     }
 }
