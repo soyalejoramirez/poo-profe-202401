@@ -40,3 +40,9 @@ b
 2src/com/alejandro/taller/punto1/app/AppAgenda.java,8/1/81bc80c141c99a0bcb1dd031903650c88eae8dbc
 ^
 .src/com/alejandro/taller/punto1/app/agenda.mdj,5/8/58f278ff76911deb25464e34e3c64c91ecaa1d06
+V
+&src/com/alejandro/eps/dominio/EPS.java,5/d/5d08200d72087714de8a0d479471744a16f06337
+[
++src/com/alejandro/eps/dominio/Paciente.java,8/d/8daa470deac65523f99af675cde2ee56653d2624
+]
+-src/com/alejandro/eps/dominio/Enfermedad.java,7/0/704275c92e4d10f30893d53a24646e4b20b2e2c8
