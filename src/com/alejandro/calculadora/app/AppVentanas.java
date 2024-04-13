@@ -1,5 +1,8 @@
 package com.alejandro.calculadora.app;
 
+import com.alejandro.banco.dominio.CuentaBancaria;
+import com.alejandro.banco.dominio.Persona;
+
 import javax.swing.*;
 import java.util.Arrays;
 
@@ -7,6 +10,9 @@ public class AppVentanas {
     private static final ImageIcon ICONO = new ImageIcon(AppVentanas.class.getResource("uco.png"));
 
     public static void main(String[] args) {
+        String str = "316";
+        int a = Integer.parseInt(str);
+
         //        String nombre = (String) JOptionPane.showInputDialog(null, "Ingresa tu nombre",
 //                "Carolina", JOptionPane.QUESTION_MESSAGE, ICONO, Arrays.asList("Alejo", "Braulio").toArray(), null);
 

@@ -46,8 +46,6 @@ V
 +src/com/alejandro/eps/dominio/Paciente.java,8/d/8daa470deac65523f99af675cde2ee56653d2624
 ]
 -src/com/alejandro/eps/dominio/Enfermedad.java,7/0/704275c92e4d10f30893d53a24646e4b20b2e2c8
-^
-.src/com/alejandro/calculadora/app/AppCalc.java,0/4/0410883840dc612237d6c6c217acdbb8be0f96fe
 e
 5src/com/alejandro/calculadora/app/AppCalculadora.java,7/c/7ccec71f8f920d2551f4c5102bfa6b11ede28710
 b
