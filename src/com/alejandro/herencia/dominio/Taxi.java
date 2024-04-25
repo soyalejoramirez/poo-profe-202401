@@ -4,6 +4,21 @@ public class Taxi extends Carro {
     private String empresa;
     private int nroPasajeros;
 
+    public Taxi(String marca, String modelo, String empresa) {
+        super(marca, modelo, "Amarillo");
+        this.empresa = empresa;
+    }
+
+    @Override
+    public String toString() {
+        return "Taxi{" +
+                "nroPasajeros=" + nroPasajeros +
+                ", marca='" + marca + '\'' +
+                ", modelo='" + modelo + '\'' +
+                ", empresa='" + empresa + '\'' +
+                '}';
+    }
+
     public void subirPasajero() {
         this.nroPasajeros++;
     }

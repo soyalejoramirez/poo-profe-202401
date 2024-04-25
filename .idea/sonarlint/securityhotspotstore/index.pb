@@ -59,8 +59,6 @@ f
 `
 0src/com/alejandro/herencia/app/AppVehiculos.java,f/1/f15a7a1c089c7d12e389611f73a326d2f69a8365
 \
-,src/com/alejandro/herencia/dominio/Taxo.java,c/1/c1fa79b89a3cb098a8190568b710ff8a39d392f5
-\
 ,src/com/alejandro/herencia/dominio/Taxi.java,7/2/7269a135b7c9de1ce0a526f720b4be9ff258efba
 a
 1src/com/alejandro/herencia/dominio/Bicicleta.java,9/a/9a62a65ebaa645db5d4895e0922795646c71cac1
@@ -68,3 +66,15 @@ c
 3src/com/alejandro/herencia/dominio/BiciMontana.java,5/a/5ac149d40fce1c13d161807cb8988ce6a3bac40f
 `
 0src/com/alejandro/herencia/dominio/BiciRuta.java,2/3/23cde3ae3ad8da31252732a8ee93f54c3813fbc8
+i
+9src/com/alejandro/geometria/dominio/FiguraGeometrica.java,6/7/675ee9bdff5b263f0bedf6e5b27ca4514d886567
+`
+0src/com/alejandro/geometria/dominio/Circulo.java,a/7/a791cbcbd9f483284b716556ffd03efea6d557e5
+a
+1src/com/alejandro/geometria/dominio/Cuadrado.java,c/f/cf05e729d8f25fb63053ca2bcef04654916eba34
+b
+2src/com/alejandro/geometria/dominio/Triangulo.java,6/f/6f199cd4f0a70dcb0d4494952dda6c7b6baf152d
+[
++src/com/alejandro/geometria/app/AppGeo.java,f/2/f2f32caa85d347f29158742f7909cbbb26920129
+e
+5src/com/alejandro/geometria/dominio/Cuadrilatero.java,7/5/758be22457b1297da671d6ab46c1d56aeced041e

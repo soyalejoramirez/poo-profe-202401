@@ -1,11 +1,22 @@
 package com.alejandro.herencia.dominio;
 
 public class Vehiculo {
-    private String matricula;
-    private String marca;
-    private String modelo;
-    private String color;
-    private double velocidad;
+    protected String serial;
+    protected String marca;
+    protected String modelo;
+    protected String color;
+    protected double velocidad;
+
+    public Vehiculo(String marca, String modelo) {
+        this.marca = marca;
+        this.modelo = modelo;
+    }
+
+    public Vehiculo(String marca, String modelo, String color) {
+        this.marca = marca;
+        this.modelo = modelo;
+        this.color = color;
+    }
 
     public void acelerar(double incremento) {
         System.out.println("Acelerando vehiculo...");
@@ -21,6 +32,17 @@ public class Vehiculo {
         if (decremento > 0) {
             this.velocidad -= decremento;
         }
+    }
+
+    @Override
+    public String toString() {
+        return "Vehiculo{" +
+                "serial='" + serial + '\'' +
+                ", marca='" + marca + '\'' +
+                ", modelo='" + modelo + '\'' +
+                ", color='" + color + '\'' +
+                ", velocidad=" + velocidad +
+                '}';
     }
 
     public double getVelocidad() {
@@ -43,7 +65,7 @@ public class Vehiculo {
         return marca;
     }
 
-    public String getMatricula() {
-        return matricula;
+    public String getSerial() {
+        return serial;
     }
 }
