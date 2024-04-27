@@ -2,7 +2,6 @@ package com.alejandro.geometria.app;
 
 import com.alejandro.geometria.dominio.Circulo;
 import com.alejandro.geometria.dominio.Cuadrado;
-import com.alejandro.geometria.dominio.Cuadrilatero;
 import com.alejandro.geometria.dominio.FiguraGeometrica;
 
 public class AppGeo {

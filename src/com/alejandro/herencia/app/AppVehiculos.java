@@ -14,7 +14,7 @@ public class AppVehiculos {
     public static void main(String[] args) {
         List<Vehiculo> vehiculos = new ArrayList<>();
 
-        Vehiculo vehiculo = new Vehiculo("Tesla", "Cybertruck");
+        Vehiculo vehiculo = new Carro("Tesla", "Cybertruck");
         Vehiculo cc = new Carro("Toyota", "Corolla");
         Taxi taxi = new Taxi("Hyundai", "Accent", "Copebombas");
         BiciRuta biciRuta = new BiciRuta("Dogma", "Pinarello");

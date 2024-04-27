@@ -1,6 +1,6 @@
 package com.alejandro.herencia.dominio;
 
-public class Vehiculo {
+public abstract class Vehiculo {
     protected String serial;
     protected String marca;
     protected String modelo;

@@ -78,3 +78,13 @@ b
 +src/com/alejandro/geometria/app/AppGeo.java,f/2/f2f32caa85d347f29158742f7909cbbb26920129
 e
 5src/com/alejandro/geometria/dominio/Cuadrilatero.java,7/5/758be22457b1297da671d6ab46c1d56aeced041e
+b
+2src/com/alejandro/facturacion/dominio/Factura.java,a/5/a5d766bffb44db2a4d408eb8069661f7c2488a80
+h
+8src/com/alejandro/facturacion/dominio/FacturaSinIva.java,6/2/62760158c1d88d21c07e4c05545ea133b71249ce
+f
+6src/com/alejandro/facturacion/dominio/Facturacion.java,e/6/e604fc41ce4d74d136b48fb348c0994b3153d398
+]
+-src/com/alejandro/facturacion/app/AppFac.java,5/0/5072be5e29e4a587f0c7935dfbb3ffe0f85da715
+h
+8src/com/alejandro/facturacion/dominio/FacturaConIva.java,2/b/2b702e0aa144e3e343c05cf275a6cfb84cfd30ab
