@@ -15,7 +15,7 @@ public class Ventana {
         } else if (os.toLowerCase().contains("nix")) {
             msj = new MensajeConsola();
         } else {
-            throw new UnsupportedOsException(os);
+            throw new SistemaOperativoNoSoportadoException(os);
         }
 
         msj.mostrar(mensaje);
