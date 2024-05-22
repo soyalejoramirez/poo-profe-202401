@@ -104,3 +104,17 @@ b
 2src/com/alejandro/antivirus/dominio/Nombrable.java,a/8/a83bcfe5aa38b2285f9628ae2584be1124681291
 ^
 .src/com/alejandro/antivirus/dominio/Video.java,e/5/e52a341675913afb128a4d42334902c5d3197b3d
+_
+/src/com/alejandro/ventanas/dominio/Mensaje.java,3/4/344f29e803daa13b09ad418f3b1eca5dc67212e0
+b
+2src/com/alejandro/ventanas/dominio/MensajeMac.java,e/8/e86319b10b27040df511e82c394b636a140cdf76
+f
+6src/com/alejandro/ventanas/dominio/MensajeConsola.java,8/3/83393e0a6b0f40d3e2485a5ae08050977f3a1944
+_
+/src/com/alejandro/ventanas/dominio/Ventana.java,f/6/f6bde3fad787542d6e09da92c3b7c61fec58fe7a
+^
+.src/com/alejandro/ventanas/app/AppVentana.java,9/f/9face2b4135bc1b685734bb67e16902a6c5e0baf
+f
+6src/com/alejandro/ventanas/dominio/MensajeWindows.java,0/f/0f07ac85c914719b5796c7349c103bb4f8a0bafe
+n
+>src/com/alejandro/ventanas/dominio/UnsupportedOsException.java,7/7/77b6edab4aa560e2a27536efb6b5d5268c940052
